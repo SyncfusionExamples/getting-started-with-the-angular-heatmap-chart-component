@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { HeatMapModule, TooltipService } from '@syncfusion/ej2-angular-heatmap';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeatMapModule],
+  imports: [HeatMapModule],
   providers: [TooltipService],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
